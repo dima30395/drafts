@@ -70,7 +70,7 @@
         max-width: 264px;
     }
     .header {
-        height: 180vh;
+        height: 190vh;
     }
     .logo img {
         position: relative;
@@ -156,6 +156,30 @@
     }
     .slick-prev {
         left: 220px;
+    }
+}
+
+@media(max-height: 904px) {
+    .header {
+        height: 203vh;
+    }
+}
+
+@media(max-height: 816px) {
+    .header {
+        height: 220vh;
+    }
+}
+
+@media(max-height: 722px) {
+    .header {
+        height: 235vh;
+    }
+}
+
+@media(max-height: 635px) {
+    .header {
+        height: 250vh;
     }
 }
 

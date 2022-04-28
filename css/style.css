@@ -42,7 +42,7 @@ body {
 /* Header */
 
 .header {
-    height: 100vh;
+    height: 120vh;
     margin-bottom: 179px;
 }
 
@@ -169,7 +169,7 @@ body {
 
 .about {
     margin-bottom: 265px;
-    padding-top: 179px;
+    /* padding-top: 179px; */
 }
 
 .about__top {
