@@ -1,11 +1,11 @@
 @media(max-width: 1270px) {
     .slick-next {
         right: 295px;
-        bottom: -315px;
+        bottom: -390px;
     }
     .slick-prev {
         left: 295px;
-        bottom: -315px;
+        bottom: -390px;
     }
     .slick-dots {
         display: flex;
@@ -27,6 +27,15 @@
     .slick-dots .slick-active button {
         background-color: #7A66CC;
         opacity: 1;
+    }
+}
+
+@media(max-width: 1220px) {
+    .slick-next {
+        bottom: -330px;
+    }
+    .slick-prev {
+        bottom: -330px;
     }
 }
 
@@ -70,7 +79,7 @@
         max-width: 264px;
     }
     .header {
-        height: 190vh;
+        height: 195vh;
     }
     .logo img {
         position: relative;
@@ -125,8 +134,8 @@
         line-height: calc(40px + (100 - 40) * ((100vw - 320px)/(1000 - 320)));
     }
     .header__suptitle {
-        font-size: calc(25px + (100 - 25) * ((100vw - 320px)/(1000 - 320)));
-        line-height: calc(30px + (100 - 30) * ((100vw - 320px)/(1000 - 320)));
+        font-size: calc(25px + (40 - 25) * ((100vw - 320px)/(1000 - 320)));
+        line-height: calc(30px + (72 - 30) * ((100vw - 320px)/(1000 - 320)));
     }
 }
 
@@ -159,11 +168,18 @@
     }
 }
 
-@media(max-height: 904px) {
+@media (max-width: 850px) {
+    .header {
+        height: 200vh;
+    }
+}
+
+
+/* @media(max-height: 904px) {
     .header {
         height: 203vh;
     }
-}
+} */
 
 @media(max-height: 816px) {
     .header {
